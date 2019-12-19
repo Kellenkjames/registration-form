@@ -1,0 +1,52 @@
+/* --------------------------
+  Base Styles
+--------------------------- */
+
+/* FONTS ---------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700&display=swap');
+
+/* VARIABLES ---------------------------------------- */
+
+:root {
+    --color-primary: #278da4;
+    --color-secondary: #b13c69;
+    --color-white: #fff;
+    --color-black: #000;
+
+    --font-stack-primary: 'Nunito', sans-serif;
+
+    --max-width: 1000px;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    /* This defines what 1rem is | 1 rem = 10px; 10px/16px = 62.5% */
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    color: #384047; 
+    background-color: #f9f9f9;
+    margin: 0;
+    font-family: var(--font-stack-primary);
+    line-height: 1.2;
+}
+
+.btn {
+    color: var(--color-white);
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: .75em 1.5em;
+}   
+
