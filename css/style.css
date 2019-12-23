@@ -120,7 +120,7 @@ label {
     margin-bottom: 1rem;
 }
 
-.half {
+.form .half {
     width: 50%;
 }
 
@@ -145,11 +145,20 @@ label {
     color: var(--color-secondary);
 }
 
-/* FORM */
-.form {
-    margin-top: 4rem;
+/* FORM STYLES */
+fieldset {
+    margin-top: 3rem;
+    padding-bottom: 1rem;
 }
 
+fieldset.contact {
+    border-bottom: 2px solid var(--color-black);
+}
+
+.newsletter label {
+    font-weight: 400;
+    color: var(--color-secondary);
+}
 
 
 
