@@ -17,7 +17,6 @@
 
     --font-stack-primary: 'Nunito', sans-serif;
 
-    --max-width-tablet: 500px;
 }
 
 *,
@@ -115,6 +114,10 @@ select {
   margin-bottom: 2rem;
 }
 
+select {
+    height: 5rem;
+}
+
 input[type="checkbox"],
 input[type="radio"]  {
     margin-right: 1.5rem;
@@ -129,6 +132,10 @@ input[type="email"]::placeholder {
 label {
     display: block;
     margin-bottom: 1rem;
+}
+
+.choose-state {
+    padding-right: 2rem;
 }
 
 .form .half {
@@ -173,7 +180,7 @@ em {
 /* FORM STYLES */
 fieldset {
     margin-top: 3rem;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
 }
 
 fieldset.contact {
@@ -183,15 +190,33 @@ fieldset.contact {
 .newsletter label {
     display: block;
     font-weight: 400;
-    color: var(--color-secondary);
+    color: var(--color-black);
     margin-bottom: 2rem;
 }
 
 /* MEDIA QUERIES */
-@media and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
     .main {
-        max-width: var(--max-width-tablet);
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .wrapper > label {
+        flex: 0 0 auto;
+    }
+
+    .wrapper input[type="text"],
+    .wrapper input[type="email"],
+    .wrapper input[type="tel"],
+    select {
+        width: 80%
     }
 
 }
