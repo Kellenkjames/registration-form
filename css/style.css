@@ -11,13 +11,13 @@
 :root {
     --color-primary: #536878;
     --color-secondary: #bababa;
-    --btn-primary: #4ee44e;
+    --btn-primary: #00b300;
     --color-white: #fff;
     --color-black: #000;
 
     --font-stack-primary: 'Nunito', sans-serif;
 
-    --max-width: 1000px;
+    --max-width-tablet: 500px;
 }
 
 *,
@@ -185,6 +185,15 @@ fieldset.contact {
     font-weight: 400;
     color: var(--color-secondary);
     margin-bottom: 2rem;
+}
+
+/* MEDIA QUERIES */
+@media and (min-width: 768px) {
+
+    .main {
+        max-width: var(--max-width-tablet);
+    }
+
 }
 
 
