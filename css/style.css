@@ -35,7 +35,7 @@ html {
 
 body {
     box-sizing: border-box;
-    color: var()var(--color-black); 
+    color: var(--color-black); 
     margin: 0;
     font-family: var(--font-stack-primary);
     line-height: 1.2;
@@ -63,14 +63,14 @@ h4 {
     margin: 0 auto;
 }
 
-.border-thick::after {
+.border-thick::before {
     content: "";
     position: absolute;
     left: 0;
     bottom: 0;
     background: var(--color-black);
     width: 100%;
-    height: 4px;
+    height: 5px;
 }
 
 .border-thin::after {
@@ -81,6 +81,18 @@ h4 {
     background: var(--color-black);
     width: 100%;
     height: 2px;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+legend {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
 }
 
 .btn {
@@ -102,5 +114,12 @@ h4 {
 .signup p {
     font-weight: 300;
 }
+
+/* FORM */
+.form {
+    margin-top: 4rem;
+}
+
+
 
 
