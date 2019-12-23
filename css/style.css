@@ -10,7 +10,7 @@
 
 :root {
     --color-primary: #536878;
-    --color-secondary: #838383;
+    --color-secondary: #bababa;
     --btn-primary: #4ee44e;
     --color-white: #fff;
     --color-black: #000;
@@ -92,7 +92,27 @@ fieldset {
 legend {
     font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"]
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  border-radius: 2px;
+  font-size: 1.2rem;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 2rem;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 2rem;
 }
 
 .btn {
@@ -112,7 +132,8 @@ legend {
 }
 
 .signup p {
-    font-weight: 300;
+    font-weight: 400;
+    color: var(--color-secondary);
 }
 
 /* FORM */
