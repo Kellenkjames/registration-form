@@ -115,6 +115,11 @@ select {
   margin-bottom: 2rem;
 }
 
+input[type="checkbox"],
+input[type="radio"]  {
+    margin-right: 1.5rem;
+}
+
 label {
     display: block;
     margin-bottom: 1rem;
@@ -122,6 +127,10 @@ label {
 
 .form .half {
     width: 50%;
+}
+
+.flex {
+    display: flex;
 }
 
 .btn {
@@ -156,8 +165,10 @@ fieldset.contact {
 }
 
 .newsletter label {
+    display: block;
     font-weight: 400;
     color: var(--color-secondary);
+    margin-bottom: 2rem;
 }
 
 
