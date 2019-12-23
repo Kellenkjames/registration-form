@@ -91,7 +91,6 @@ fieldset {
 legend {
     font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 2.5rem;
 }
 
 input[type="text"]:focus,
@@ -129,6 +128,10 @@ select {
 input[type="checkbox"],
 input[type="radio"]  {
     margin-right: 1.5rem;
+}
+
+textarea {
+    border: 1px solid var(--color-primary);
 }
 
 input[type="text"]::placeholder,
@@ -189,7 +192,18 @@ fieldset {
 }
 
 fieldset.contact {
+    padding: 2em 2%;
     border-bottom: 2px solid var(--color-black);
+}
+
+fieldset.newsletter {
+    margin-top: 0;
+    padding: 2em 2%;
+    padding-bottom: 0;
+}
+
+fieldset.newsletter legend {
+    margin: 0;
 }
 
 .newsletter label {
@@ -197,6 +211,13 @@ fieldset.contact {
     font-weight: 400;
     color: var(--color-black);
     margin-bottom: 2rem;
+}
+
+.container {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: #ededed;
+    padding: 2em 2%;
 }
 
 /* MEDIA QUERIES */
