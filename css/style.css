@@ -166,6 +166,7 @@ label {
 
 .btn {
     background-color: var(--color-black);
+    border-radius: 2px;
     color: var(--color-white);
     font-weight: 700;
     font-size: 1.8rem;
