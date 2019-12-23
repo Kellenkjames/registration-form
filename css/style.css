@@ -11,7 +11,6 @@
 :root {
     --color-primary: #536878;
     --color-secondary: #bababa;
-    --btn-primary: #00b300;
     --color-white: #fff;
     --color-black: #000;
 
@@ -173,6 +172,11 @@ label {
     display: inline-block;
     padding: .75em 1.5em;
     width: 100%;
+    transition: background-color .3s ease;
+}
+
+.btn:hover {
+    background-color: var(--color-primary);
 }
 
 em {
