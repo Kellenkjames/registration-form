@@ -134,12 +134,22 @@ label {
 }
 
 .btn {
+    background-color: var(--btn-primary);
     color: var(--color-white);
     font-weight: 700;
+    font-size: 1.8rem;
     text-decoration: none;
-    text-transform: uppercase;
     display: inline-block;
     padding: .75em 1.5em;
+    width: 100%;
+}
+
+em {
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    color: var(--color-secondary);
+    padding: 2rem 0;
 }
 
 /* SIGNUP SECTION */
