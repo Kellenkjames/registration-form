@@ -94,6 +94,14 @@ legend {
     margin-bottom: 2.5rem;
 }
 
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus,
+textarea:focus {
+    outline: 1px solid var(--color-black);
+}
+
 input[type="text"],
 input[type="email"],
 input[type="tel"],
@@ -132,10 +140,6 @@ input[type="email"]::placeholder {
 label {
     display: block;
     margin-bottom: 1rem;
-}
-
-.choose-state {
-    padding-right: 2rem;
 }
 
 .form .half {
