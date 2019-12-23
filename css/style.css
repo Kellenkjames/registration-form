@@ -219,6 +219,15 @@ fieldset.contact {
         width: 80%
     }
 
+    .wrapper label.zip {
+        margin-right: 6.5rem;
+    }
+
+    .wrapper input[type="text"].zip {
+        width: 30%;
+        margin-right: auto;
+    }
+
 }
 
 
