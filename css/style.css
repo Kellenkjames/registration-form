@@ -132,7 +132,8 @@ input[type="radio"]  {
 }
 
 input[type="text"]::placeholder,
-input[type="email"]::placeholder {
+input[type="email"]::placeholder,
+input[type="tel"]::placeholder {
     text-align: right;
     font-style: italic;
 }
