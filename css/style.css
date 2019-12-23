@@ -92,14 +92,14 @@ fieldset {
 legend {
     font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 input[type="text"],
 input[type="email"],
-input[type="number"]
+input[type="tel"],
 textarea,
-select {
+select { 
   background: rgba(255,255,255,0.1);
   border: none;
   border-radius: 2px;
@@ -113,6 +113,11 @@ select {
   color: #8a97a0;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 2rem;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 1rem;
 }
 
 .btn {
