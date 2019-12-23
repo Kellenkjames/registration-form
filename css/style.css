@@ -120,6 +120,12 @@ input[type="radio"]  {
     margin-right: 1.5rem;
 }
 
+input[type="text"]::placeholder,
+input[type="email"]::placeholder {
+    text-align: right;
+    font-style: italic;
+}
+
 label {
     display: block;
     margin-bottom: 1rem;
