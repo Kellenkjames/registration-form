@@ -9,8 +9,9 @@
 /* VARIABLES ---------------------------------------- */
 
 :root {
-    --color-primary: #278da4;
-    --color-secondary: #b13c69;
+    --color-primary: #536878;
+    --color-secondary: #838383;
+    --btn-primary: #4ee44e;
     --color-white: #fff;
     --color-black: #000;
 
@@ -34,11 +35,32 @@ html {
 
 body {
     box-sizing: border-box;
-    color: #384047; 
-    background-color: #f9f9f9;
+    color: var()var(--color-black); 
     margin: 0;
     font-family: var(--font-stack-primary);
     line-height: 1.2;
+    font-size: 1.4em;
+}
+
+.header {
+    padding: 2rem 0;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h4 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.main {
+    width: 90%;
+    margin: 0 auto;
 }
 
 .btn {
@@ -48,5 +70,16 @@ body {
     text-transform: uppercase;
     display: inline-block;
     padding: .75em 1.5em;
-}   
+}
+
+/* Signup Section */
+.signup {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.signup p {
+    font-weight: 300;
+}
+
 
